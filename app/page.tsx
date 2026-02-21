@@ -1,4 +1,4 @@
-import { supabase } from "@/app/lib/supabase";
+import { supabase } from "@/lib/supabase";
 
 export default async function Home() {
   const { data, error } = await supabase
